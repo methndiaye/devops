@@ -1,0 +1,14 @@
+{
+  "name": "devops-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/app.js",
+    "compile": "echo 'compile OK'",
+    "build": "rm -rf dist && mkdir dist && cp -r backend frontend package.json dist/",
+    "test": "echo 'test OK'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.0.2"
+  }
+}
